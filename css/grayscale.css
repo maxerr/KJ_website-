@@ -647,6 +647,9 @@ outline: none;
     #ninja-slider-next {
         right:0;
     }
+    .img-responsive.thumbnail.camera{
+      
+    }
 }
 
 @media only screen and (max-width:600px){
@@ -699,6 +702,20 @@ footer p{
 }
 #about{
   margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .justext{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .img-responsive.thumbnail.camera{
+      display: none;
+    }
 }
 
 
